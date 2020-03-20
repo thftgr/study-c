@@ -1,0 +1,2 @@
+C:\Users\thftg\source\repos\study-c\Polar bear\x64\Debug\BIT Calc.exe
+C:\Users\thftg\source\repos\study-c\Polar bear\x64\Debug\BIT Calc.pdb
