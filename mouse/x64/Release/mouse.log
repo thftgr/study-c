@@ -1,0 +1,13 @@
+﻿  main.c
+C:\Users\thftg\source\repos\mouse\main.c(30,20): warning C4047: '!=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
+C:\Users\thftg\source\repos\mouse\main.c(30,37): warning C4047: '!=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
+C:\Users\thftg\source\repos\mouse\main.c(34,15): warning C4047: '=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
+C:\Users\thftg\source\repos\mouse\main.c(35,15): warning C4047: '=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
+C:\Users\thftg\source\repos\mouse\main.c(46,47): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\thftg\source\repos\mouse\main.c(46,59): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+  코드를 생성하고 있습니다.
+  1 of 4 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  mouse.vcxproj -> C:\Users\thftg\source\repos\mouse\x64\Release\mouse.exe

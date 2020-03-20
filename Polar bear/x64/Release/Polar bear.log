@@ -1,0 +1,11 @@
+﻿  main.c
+C:\Users\thftg\source\repos\Polar bear\main.c(97,10): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
+C:\Users\thftg\source\repos\Polar bear\main.c(97,10): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 '__int64'입니다.
+C:\Users\thftg\source\repos\Polar bear\main.c(97,10): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 '__int64'입니다.
+C:\Users\thftg\source\repos\Polar bear\main.c(97,10): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 '__int64'입니다.
+  코드를 생성하고 있습니다.
+  1 of 4 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Polar bear.vcxproj -> C:\Users\thftg\source\repos\Polar bear\x64\Release\BIT Calc.exe
