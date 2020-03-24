@@ -1,7 +1,1 @@
-﻿  main.c
-  코드를 생성하고 있습니다.
-  1 of 4 functions (25.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  코드를 생성했습니다.
-  mouse.vcxproj -> C:\Users\thftg\source\repos\mouse\Release\mouse.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(436,5): error MSB8040: 이 프로젝트에는 스펙터 완화된 라이브러리가 필요합니다. 사용되는 모든 도구 세트 및 아키텍처의 경우 Visual Studio 설치 관리자(개별 구성 요소 탭)에서 설치하세요. 자세한 정보: https://aka.ms/Ofhn4c
