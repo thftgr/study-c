@@ -3,7 +3,7 @@
 #include <time.h>
 #include <Windows.h>
 
-#define FILE_NAME "tmp.txt"
+#define FILE_NAME "./\\tmp.txt"
 
 
 void fileopen(FILE* file)
@@ -23,14 +23,16 @@ int main()
 	POINT p;
 	FILE* fp;
 
-	int* xy[2] = { 0,0 };
+	int* xy[2] = { 0, };
 	int StartTime = 0, StopTime = 0;
 	int check = 0, count = 0;
-	int* readbuffer[3] = { 0,0,0 };
+	int* readbuffer[3] = { 0, };
 
-
+	
 	remove(FILE_NAME);
-	//if (remove(FILE_NAME) != 0) return 0;
+	printf_s("wait 3sec");
+	Sleep(3000);
+	printf_s("start now");
 
 	while (1)
 	{
@@ -47,25 +49,18 @@ int main()
 			check = 1;
 			xy[0] = p.x;
 			xy[1] = p.y;
+			
+			
 
-			printf_s("X= %d, Y= %d : %dms = ", (int)xy[0], (int)xy[1], (StopTime - StartTime));
+			printf_s("%d : X= %d, Y= %d : %dms\n", count,(int)xy[0], (int)xy[1], (StopTime - StartTime));
 
 			fopen_s(&fp, FILE_NAME, "a+");
 			fileopen(fp);
+
 			fprintf_s(fp, "%d %d %d\n", (int)xy[0], (int)xy[1], (StopTime - StartTime));
+
 			fclose(fp);
 
-
-			fopen_s(&fp, FILE_NAME, "a+");
-			fileopen(fp);
-
-			for (int i = -1; i < count; i++)
-			{
-				fscanf_s(fp, "%d %d %d", &readbuffer[0], &readbuffer[1], &readbuffer[2]);
-			}
-
-			printf_s("file read:%d,%d\n", readbuffer[0], readbuffer[1]);
-			fclose(fp);
 			count++;
 
 		}
