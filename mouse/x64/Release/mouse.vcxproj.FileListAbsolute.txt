@@ -1,1 +1,2 @@
 C:\Users\thftg\source\repos\study-c\mouse\x64\Release\mouse.exe
+D:\Git\study-c\mouse\x64\Release\mouse.exe

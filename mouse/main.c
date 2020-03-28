@@ -55,11 +55,11 @@ int main()
 			printf_s("%d : X= %d, Y= %d : %dms\n", count,(int)xy[0], (int)xy[1], (StopTime - StartTime));
 
 			fopen_s(&fp, FILE_NAME, "a+");
-			fileopen(fp);
+			//fileopen(fp);
 
-			fprintf_s(fp, "%d %d %d\n", (int)xy[0], (int)xy[1], (StopTime - StartTime));
+			//fprintf_s(fp, "%d %d %d\n", (int)xy[0], (int)xy[1], (StopTime - StartTime));
 
-			fclose(fp);
+			//fclose(fp);
 
 			count++;
 
