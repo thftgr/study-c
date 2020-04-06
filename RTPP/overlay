@@ -1,0 +1,15 @@
+:00m00s000ms
+Playtime:${set(a,((playtime -(playtime%1000))/1000))+((a-a%60)/60)}m${(a-(a-a%60))}s${(playtime -(a*1000))}ms
+
+정확도 수동계산
+ACC:${((((n300*300+n100*100+n50*50)/(300*(n300+n100+n50+nmiss))*10000)-((n300*300+n100*100+n50*50)/(300*(n300+n100+n50+nmiss))*10000)%100)/100)}.${(((n300*300+n100*100+n50*50)/(300*(n300+n100+n50+nmiss))*10000)%100)}% 
+
+지금까지 처리한 노트
+note:${(current_maxcombo)/fullcombo*100}% 
+
+곡 플레이타임 진행도
+time:${(playtime/duration)*100}%
+
+역방향 확도
+${(((n300+n300g+(current_maxcombo-(n300+n300g+n200+n100+n50+nmiss)))/fullcombo*100)+if(n100<1,0,((((n200+n100)/3)/fullcombo)*100))+if(n50<1,0,(((n50/6)/fullcombo)*100)))@2} //ACC
+

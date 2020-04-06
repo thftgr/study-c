@@ -1,0 +1,9 @@
+D:\Git\C#\Event_hook\Hook002\bin\Debug\Hook002.exe.config
+D:\Git\C#\Event_hook\Hook002\bin\Debug\Hook002.exe
+D:\Git\C#\Event_hook\Hook002\bin\Debug\Hook002.pdb
+D:\Git\C#\Event_hook\Hook002\obj\Debug\Hook002.csprojAssemblyReference.cache
+D:\Git\C#\Event_hook\Hook002\obj\Debug\Hook002.Properties.Resources.resources
+D:\Git\C#\Event_hook\Hook002\obj\Debug\Hook002.csproj.GenerateResource.cache
+D:\Git\C#\Event_hook\Hook002\obj\Debug\Hook002.csproj.CoreCompileInputs.cache
+D:\Git\C#\Event_hook\Hook002\obj\Debug\Hook002.exe
+D:\Git\C#\Event_hook\Hook002\obj\Debug\Hook002.pdb
