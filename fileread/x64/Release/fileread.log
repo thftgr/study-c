@@ -1,5 +1,5 @@
 ﻿  main.c
-C:\Users\thftg\source\repos\study-c\fileread\main.c(15,11): warning C4098: 'fileopen': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\thftg\source\repos\study-c\fileread\main.c(16,11): warning C4098: 'fileopen': 'void' 함수에서 값을 반환하고 있습니다.
   코드를 생성하고 있습니다.
   1 of 8 functions (12.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation

@@ -1,14 +1,9 @@
 ﻿  main.c
-D:\Git\study-c\mouse\main.c(15,11): warning C4098: 'fileopen': 'void' 함수에서 값을 반환하고 있습니다.
-D:\Git\study-c\mouse\main.c(46,20): warning C4047: '!=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
-D:\Git\study-c\mouse\main.c(46,37): warning C4047: '!=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
-D:\Git\study-c\mouse\main.c(50,15): warning C4047: '=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
-D:\Git\study-c\mouse\main.c(51,15): warning C4047: '=': 'int *'의 간접 참조 수준이 'LONG'과(와) 다릅니다.
-D:\Git\study-c\mouse\main.c(55,59): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
-D:\Git\study-c\mouse\main.c(55,71): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\thftg\source\repos\study-c\mouse\main.c(16,11): warning C4098: 'fileopen': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\thftg\source\repos\study-c\mouse\main.c(30,8): warning C4101: 'p' :참조되지 않은 지역 변수입니다.
   코드를 생성하고 있습니다.
-  4 of 4 functions (100.0%) were compiled.
+  1 of 6 functions (16.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
-  mouse.vcxproj -> D:\Git\study-c\mouse\x64\Release\mouse.exe
+  mouse.vcxproj -> C:\Users\thftg\source\repos\study-c\mouse\x64\Release\mouse.exe

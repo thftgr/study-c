@@ -1,0 +1,2 @@
+C:\Users\thftg\source\repos\study-c\fileread-rand\x64\Debug\fileread-rand.exe
+C:\Users\thftg\source\repos\study-c\fileread-rand\x64\Debug\fileread-rand.pdb
