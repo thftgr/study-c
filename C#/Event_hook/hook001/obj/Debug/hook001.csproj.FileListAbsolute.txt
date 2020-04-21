@@ -8,3 +8,13 @@ D:\Git\C#\Event_hook\hook001\obj\Debug\hook001.csproj.CoreCompileInputs.cache
 D:\Git\C#\Event_hook\hook001\obj\Debug\hook001.exe
 D:\Git\C#\Event_hook\hook001\obj\Debug\hook001.pdb
 D:\Git\C#\Event_hook\hook001\obj\Debug\hook001.Form1.resources
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\bin\Debug\hook001.exe.config
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\bin\Debug\hook001.exe
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\bin\Debug\hook001.pdb
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\obj\Debug\hook001.csprojAssemblyReference.cache
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\obj\Debug\hook001.Form1.resources
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\obj\Debug\hook001.Properties.Resources.resources
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\obj\Debug\hook001.csproj.GenerateResource.cache
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\obj\Debug\hook001.csproj.CoreCompileInputs.cache
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\obj\Debug\hook001.exe
+C:\Users\thftg\source\repos\study-c\C#\Event_hook\hook001\obj\Debug\hook001.pdb
