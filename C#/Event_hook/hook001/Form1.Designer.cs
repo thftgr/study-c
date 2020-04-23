@@ -31,9 +31,7 @@
             this.window_Find_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.send_Event_Button = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.set_manual = new System.Windows.Forms.Button();
+            this.getwindowtop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // window_Find_button
@@ -65,39 +63,22 @@
             this.send_Event_Button.UseVisualStyleBackColor = true;
             this.send_Event_Button.Click += new System.EventHandler(this.send_Event_Button_clicked);
             // 
-            // textBox1
+            // getwindowtop
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 54);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(654, 384);
-            this.textBox1.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(202, 26);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 21);
-            this.textBox2.TabIndex = 4;
-            // 
-            // set_manual
-            // 
-            this.set_manual.Location = new System.Drawing.Point(385, 26);
-            this.set_manual.Name = "set_manual";
-            this.set_manual.Size = new System.Drawing.Size(78, 21);
-            this.set_manual.TabIndex = 5;
-            this.set_manual.Text = "Set";
-            this.set_manual.UseVisualStyleBackColor = true;
-            this.set_manual.Click += new System.EventHandler(this.set_manual_Click);
+            this.getwindowtop.Location = new System.Drawing.Point(13, 54);
+            this.getwindowtop.Name = "getwindowtop";
+            this.getwindowtop.Size = new System.Drawing.Size(183, 23);
+            this.getwindowtop.TabIndex = 3;
+            this.getwindowtop.Text = "get Window to Top";
+            this.getwindowtop.UseVisualStyleBackColor = true;
+            this.getwindowtop.Click += new System.EventHandler(this.getwindowtop_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.set_manual);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.getwindowtop);
             this.Controls.Add(this.send_Event_Button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.window_Find_button);
@@ -113,9 +94,7 @@
         private System.Windows.Forms.Button window_Find_button;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button send_Event_Button;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button set_manual;
+        private System.Windows.Forms.Button getwindowtop;
     }
 }
 
