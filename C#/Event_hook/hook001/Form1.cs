@@ -48,7 +48,7 @@ namespace hook001
         {
             InitializeComponent();
 
-            FindOsu();
+            FindWindow();
 
         }
         private static DateTime Delay(int ms)
@@ -66,10 +66,22 @@ namespace hook001
 
         private void window_Find_button_Click(object sender, EventArgs e)
         {
-            FindOsu();
+            FindWindow();
 
         }
+<<<<<<< HEAD
 
+=======
+        //uint LParam_calc(uint repeat, uint scanCode, uint Key_UD)
+        //{
+        //    uint LParam = 0;
+        //    //1.0.0.0000.0.00000000.0000000000000000
+        //    LParam = Key_UD << 31 | Key_UD << 30 | scanCode << 16 | repeat;
+        //    textBox1.AppendText(Convert.ToString(LParam, 2));
+
+        //    return LParam;
+        //}
+>>>>>>> cfb5ea86b44c9df2c496f05f8f1cc8832de02db3
 
 
         private void send_Event_Button_clicked(object sender, EventArgs e)
@@ -80,6 +92,7 @@ namespace hook001
 
         private void SendEvent()
         {
+<<<<<<< HEAD
 
 
 
@@ -87,18 +100,36 @@ namespace hook001
             keybd_event(0x50,0,0x00,0);
             keybd_event(0x50, 0, 0x02, 0);
 
+=======
+            //SendMessage(handle, WM_IME_SETCONTEXT, 0x00000001, 0xC000000F);
+            //SendMessage(handle, WM_IME_NOTIFY, 0x00000002, 0x00000000);
+            //SendMessage(handle, WM_SETFOCUS, 0x00000000, 0x00000000);
+            //SendMessage(handle, 0x001C, 0x00000001, 0x00000000);
+            SendMessage(handle, 0x0007, 0x00000000, 0x00000000);
+            //SendMessage(handle, 0x0086, 0x00000001, 0x00000000);
+
+            PostMessage(handle, 0x0201, 0x00000001, 0x002403D2);
+            
+            SendMessage(handle, 0x0215, 0x00000000, 0x00710BA0);
+            
+>>>>>>> cfb5ea86b44c9df2c496f05f8f1cc8832de02db3
         }
 
 
-        private void FindOsu()
+        private void FindWindow()
         {
             //핸들을 찾는다. Spy+를 통해 찾은 클래스 이름과 캡션을 이용하면 된다. 둘 중 하나만 알경우에도 찾을 수 있다. 그때는 하나의 인자를 null로 넘겨 주면된다.
-            handle = FindWindow(null, "osu!");
+            //handle = FindWindow(null, "osu!");
+            handle = FindWindow("Qt5QWindowIcon", "SmartRF Flash Programmer 2 - Texas Instruments");
             //찾은 핸들에서 자식 윈도우 핸들을 찾기 위해서는 FindWindowEx를 이용한다.
 
 
             //handle = FindWindowEx(handle, 0, null, "");
             //handle = FindWindowEx(handle, 0, null, "");
+<<<<<<< HEAD
+=======
+
+>>>>>>> cfb5ea86b44c9df2c496f05f8f1cc8832de02db3
             if (!handle.ToString().Equals("0"))
             {
                 label1.Text = handle.ToString("X8");
